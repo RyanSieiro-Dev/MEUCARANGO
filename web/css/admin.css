@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff9900;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    background-color: #003366; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    color: #003366; 
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ffffff; 
+}
+
+th {
+    background-color: #003366; 
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    background-color: #003366; 
+    color: white; 
+}
+
+
+input[type="submit"] {
+    background-color: #003366; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px;
+    display: inline-block;
+}
+
+input[type="submit"]:hover {
+    background-color: #002244; 
+}
+
+
+a {
+    text-decoration: none;
+    color: #ff9900; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: black; 
+}
+
+/* Formulários */
+form {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #003366; 
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form table {
+    width: 100%;
+    color: white;
+    border: none;
+}
+
+form table td {
+    padding: 8px;
+}
+
+form input[type="text"], form select {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Placeholder em preto */
+form input[type="text"]::placeholder, 
+form input[type="password"]::placeholder, 
+form select::placeholder {
+    color: black; /* Cor do placeholder preta */
+}
+
+/* Footer com botões de navegação */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer form input[type="submit"] {
+    background-color: #003366; /* Azul escuro */
+    color: white;
+    margin: 10px auto;
+}
+
+footer form input[type="submit"]:hover {
+    background-color: #002244; /* Azul mais escuro */
+}
+
+/* Contêiner para centralizar links e botões */
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

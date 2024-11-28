@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    background-color: #f78b00; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    color: #00285f; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário de login */
+.container {
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Efeito fade-in para o container */
+.fade-in {
+    opacity: 1;
+}
+
+/* Estilo do conteúdo dentro da container */
+.content {
+    background-color: #ffa64d; /* Novo fundo laranja claro */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    color: #00285f; /* Cor do título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos campos do formulário */
+form p {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    color: #00285f; /* Cor das labels */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 93.5%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #00285f; /* Cor do botão */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #001f43; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para os links */
+a {
+    color: #00285f; /* Cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo dos checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estilo da parte de "Ainda não tem conta?" */
+.Login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsividade: ajustando o layout para telas menores */
+@media (max-width: 480px) {
+    .content {
+        width: 90%;
+        padding: 20px;
+    }
+}
